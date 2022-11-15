@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+#wrapper{   margin-left:    auto;
+            margin-right:   auto;       
+            background-color: white; 
+            
+            padding-bottom: 1.5em;
+            width: 94.5%;
+          
+
+            min-width: 960px;
+            max-width: 1280px;
+            
+            background-size: 200% 100%;
+    
+}
+body {  
+        background-color: whitesmoke;
+        margin: 0em;
+        color: #000066;
+        background-attachment: fixed;      
+}
+
+    
+header{ 
+        
+        background-repeat: no-repeat;
+        
+        padding: 1em;
+        text-align:  right;
+}
+
+main{
+     padding: 0px 10px;    
+}
+nav{
+    background-color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+
+nav ul{
+        font-size: 20.5px;
+        
+        padding: 17px;
+		display: flex; 
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+  }
+  
+  nav li{
+        
+		border-bottom: none;
+		display: block;
+  }
+    
+
+
+nav a	
+	{	text-decoration: none;
+	}
+
+nav a:link 
+	{	color:dodgerblue;
+	}
+
+nav a:visited 
+	{	color:#000066;
+	}
+
+nav a:hover {
+    padding: 17px;
+    background-color: #FFFEFC;
+}   
+
+
+
+
+
+
+footer{ 
+    
+    font-size: .70em;
+    text-align: center;
+    padding: 1em;
+    font-style: italic;   
+}
+
+li{
+    padding-left: 5px;
+    color: black;
+}
+section{
+    padding-left: 0em;
+}
+
+#address{
+    float: left;
+    font-size: 1.3em;
+    
+}
+
+table, th, td {
+  border: 3px solid red;
+  border-collapse: separate;
+  
+    
+}
+td{
+    text-align: match-parent;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 13px;
+}
+
+#flow1{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    
+}
+.friendsImg { float: center;
+            margin-right: 80px;
+         border: 5px ridge whitesmoke; }
+
+
+#shopButton {
+    
+    background-color: #000066;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding: 10px 31.2px 10px 31.2px;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    cursor: pointer;
+ 
+}
+
+.box{
+    float: center;
+    padding-left: 10px;
+    margin-top: 22px;
+    margin-right: 22px;
+    border-radius: 5px;
+    border-style: solid
+/* color: #FF0800; */ 
+     
+}
+.clarfix:: after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*The title on Home page The ultimate maze scater*/
+
+.title{ color: #000000;
+        text-align: left;
+        
+}
+/*The AvaliablePasses Button */
+
+         
+#skatingRinkPhoto{
+     
+    padding: 175px 150px;
+    background: url('Images/maze1.gif');
+    background-repeat: no-repeat;
+    /* the width, height */
+
+    background-size: 1200px 385px;
+    position: inherit;
+ 
+}
+
+ /* End of the Mobile Screen */    
+@media only screen and (max-width: 600px) {
+
+ /* ----------Mobile screen --------*/
+
+#wrapper { 
+    background-color: #FFFFFF;
+    margin-left: 30px;
+    min-width:      auto;
+    max-width:     auto;
+       
+    padding-bottom: 1em;
+    
+}
+    nav {
+        background-color: whitesmoke;
+       
+    }
+
+
+   nav ul{
+        text-align: center;
+        border-style: solid;
+        margin: 20px;
+		display: flex; 
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+  }
+  
+  nav li{
+        padding-top:.5em;
+		padding-bottom: .5em;
+		padding-left: 1em;
+		padding-right: 1em;
+		width: 100%;
+		border-bottom: 1px solid;
+  }
+    nav a:link 
+	{	color:dodgerblue;
+	}
+
+    nav a:visited 
+	{	color:#000066;
+	}
+
+    nav a:hover {
+        position: relative;
+    padding: 10px;
+    background-color: dodgerblue;
+    }   
+
+    
+
+        header{
+       text-align: center;
+    }
+    
+
+    
+#skatingRinkPhoto{
+            
+    background: url('Images/maze1.gif');
+    background-repeat: no-repeat;
+    /* the width, height */
+
+    background-size: 500px 277px; 
+ 
+} 
+    
+    
+}
